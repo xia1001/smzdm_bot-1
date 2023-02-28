@@ -8,7 +8,7 @@ on:
       - completed
 
    schedule:
-     - cron: "30 22 * * *"
+     - cron: "41 02 * * *"
 
 jobs:
   run:
