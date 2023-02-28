@@ -7,8 +7,9 @@ on:
     types:
       - completed
 
-   schedule:
-     - cron: "50 02 * * *"
+  # UTC时间，对应Beijing时间 8：30
+  # schedule:
+  #   - cron: "10 2 * * *"
 
 jobs:
   run:
